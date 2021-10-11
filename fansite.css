@@ -121,3 +121,16 @@ li.dropdown {
     height: 20px;
     width: 20px;
 }
+
+.containerArme{
+    display: flex;
+    justify-content: end;
+}
+
+.containerArmeD{
+
+}
+
+.containerArmeG{
+
+}
