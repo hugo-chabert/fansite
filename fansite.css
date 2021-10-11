@@ -1,5 +1,5 @@
 html{
-    background-color: lightslategrey;
+    background-color: ghostwhite;
 }
 
 body {
@@ -73,15 +73,22 @@ li.dropdown {
 .containerAll {
     display: flex;
     flex-direction: column;
-    height: 110vh;
+    height: 150vh;
 }
+
+.containerAll2 {
+    display: flex;
+    flex-direction: column;
+    height: 400vh;
+}
+
 .container {
     margin-top: 1%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
-    color: antiquewhite;
+    color: black;
 }
 
 .partone {
@@ -95,7 +102,7 @@ li.dropdown {
 }
 .partthree {
     padding: 1%;
-    color: white;
+    color: black;
     height: 10%;
 }
 
@@ -106,7 +113,7 @@ li.dropdown {
     align-items: center;
     padding-left: 1%;
     font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
-    color: antiquewhite;
+    color: black;
 }
 .partfour {
     padding: 2.5%;
@@ -138,4 +145,32 @@ li.dropdown {
 
 .containerArmeG{
 
+}
+
+.containerMAP {
+    margin-top: 5%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.Mapping a{
+    text-decoration: none;
+    color: black;
+}
+
+.borderMAP {
+    background-color: lightslategrey;
+    border: solid;
+    text-align: center;
+}
+
+.Map1 {
+    border: solid black 1px;
+}
+.Map1:hover {
+    border: 2mm ridge rgb(0, 0, 0);
+    cursor: pointer;
+    height: 300px;
+    width: 500px;
 }
