@@ -125,12 +125,16 @@ li.dropdown {
 .containerArme{
     display: flex;
     justify-content: end;
+    background-color: purple;
 }
 
 .containerArmeD{
-
+    display: flex;
+    justify-content: end;
+    background-color: red;
 }
 
 .containerArmeG{
+    background-color: blue;
 
 }
