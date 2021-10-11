@@ -56,9 +56,10 @@ li.dropdown {
 }
 
 .TitleCSGO{
-    color: white;
-    font-size: 25px;
-    font-family: rubik,helvetica,arial,sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
 }
 
 .footer{
