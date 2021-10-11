@@ -1,12 +1,12 @@
 html{
-    background-color: lightslategrey;
+    background-color: white;
 }
 
 body {
     padding: 0;
     margin: 0;
 }
-ul {
+.ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -14,11 +14,11 @@ ul {
     background-color: #272E6F;
 }
   
-li {
+.li {
     float: left;
 }
   
-li a, .dropbtn {
+.li a, .dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
@@ -26,11 +26,11 @@ li a, .dropbtn {
     text-decoration: none;
 }
   
-li a:hover, .dropdown:hover .dropbtn {
+.li a:hover, .dropdown:hover .dropbtn {
     background-color: #F99D1C;
 }
   
-li.dropdown {
+.li.dropdown {
     display: inline-block;
 }
   
@@ -124,17 +124,39 @@ li.dropdown {
 
 .containerArme{
     display: flex;
-    justify-content: end;
-    background-color: purple;
+    flex-direction: row;
+    margin-bottom: 50px;
+    margin-left: 10px;
 }
 
 .containerArmeD{
-    display: flex;
-    justify-content: end;
-    background-color: red;
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
 }
 
 .containerArmeG{
-    background-color: blue;
+    width: 60%;
+}
 
+.titreArme{
+    border: solid black 2px;
+    width: 266px;
+    text-align: center;
+}
+
+.imageArme{
+    border: solid black 2px;
+    width: 266px;
+    height: 200px;
+}
+
+.texteDroite{
+    border: solid black 2px;
+    width: 266px;
+}
+
+.nomArme{
+    margin-left: 10px;
 }
