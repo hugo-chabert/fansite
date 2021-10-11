@@ -1,7 +1,11 @@
 html{
-    background-color: dimgray;    
+    background-color: lightslategrey;
 }
 
+body {
+    padding: 0;
+    margin: 0;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -57,6 +61,7 @@ li.dropdown {
 
 .TitleCSGO{
     color: white;
+    text-align: center;
     font-size: 25px;
     font-family: rubik,helvetica,arial,sans-serif;
 }
@@ -67,7 +72,7 @@ li.dropdown {
 }
 
 .container {
-    margin-top: 10%;
+    margin-top: 1%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -75,12 +80,17 @@ li.dropdown {
 }
 
 .partone {
+    padding: 1%;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    color: antiquewhite;
     height: 30%;
 }
 .parttwo {
+    color: white;
     height: 40%;
 }
 .partthree {
+    color: white;
     height: 30%;
 }
 
@@ -92,12 +102,15 @@ li.dropdown {
     height: 50vh;
 }
 .partone2 {
+    color: white;
     height: 50%;
 }
 .parttwo2 {
+    color: white;
     height: 20%;
 }
 .partthree2 {
+    color: white;
     height: 30%;
 }
 #img1{
