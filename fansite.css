@@ -1,5 +1,8 @@
 html{
-    background-color: white;
+    background-color: white;    
+    background-image: url(wallpaper_nologo.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
 }
 
 body {
@@ -138,25 +141,41 @@ body {
 
 .containerArmeG{
     width: 60%;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    color: white;
 }
 
 .titreArme{
-    border: solid black 2px;
+    border: solid #26283a 2px;
     width: 266px;
     text-align: center;
+    background-color: #26283a;
+    color: #F99D1C;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: bold;
 }
 
 .imageArme{
-    border: solid black 2px;
+    border: solid #F99D1C 2px;
     width: 266px;
     height: 200px;
 }
 
-.texteDroite{
-    border: solid black 2px;
+#imageArme{
+    border: solid #F99D1C 2px;
     width: 266px;
+    height: 150px;
+}
+
+.texteDroite{
+    border: solid #F99D1C 2px;
+    width: 266px;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    color: white;
 }
 
 .nomArme{
     margin-left: 10px;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    color: #F99D1C;
 }
