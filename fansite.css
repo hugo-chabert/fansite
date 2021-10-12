@@ -19,6 +19,7 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: #272E6F;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
 }
   
 .li {
@@ -80,7 +81,6 @@ body {
 .containerAll {
     display: flex;
     flex-direction: column;
-    height: 62vh;
 }
 
 .containerAll2 {
@@ -189,7 +189,7 @@ body {
     height: 300px;
     width: 500px;
 }
-article {
+.article {
     min-height: 100%;
     display: flex;
     flex-direction: column;
@@ -246,4 +246,10 @@ footer {
     margin-left: 10px;
     font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
     color: #F99D1C;
+}
+
+.HowTo{
+    display: flex;
+    flex-direction: column;
+    
 }
