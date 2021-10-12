@@ -73,7 +73,7 @@ li.dropdown {
 .containerAll {
     display: flex;
     flex-direction: column;
-    height: 150vh;
+    height: 62vh;
 }
 
 .containerAll2 {
@@ -173,4 +173,28 @@ li.dropdown {
     cursor: pointer;
     height: 300px;
     width: 500px;
+}
+article {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    grid-template-rows: auto 1fr auto;
+    text-align: center;
+}
+
+.Footer1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    line-height: 25px;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+}
+footer {
+    position: static;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #272E6F;
+    color: #fff;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
 }
