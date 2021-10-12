@@ -1,5 +1,8 @@
 html{
     background-color: ghostwhite;
+}
+
+.background{
     background-color: white;    
     background-image: url(wallpaper_nologo.jpg);
     background-size: 100%;
