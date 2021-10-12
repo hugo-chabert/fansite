@@ -253,3 +253,39 @@ footer {
     flex-direction: column;
     
 }
+
+.containerGradeALL {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.containerGrade {
+    display: flex;
+    flex-direction: column;
+}
+
+.containerGrade p{
+    text-align: center;
+}
+.G1 {
+    height:40px;
+    width:100px;
+}
+.line {
+    border: solid black 1px;
+}
+
+.SecondColumn {
+    height: 20%;
+}
+
+.Thirdcolumn {
+    height: 20%;
+}
+.FourthColumn {
+    height: 20%;
+}
+.FifthColumn {
+    height: 20%;
+}
