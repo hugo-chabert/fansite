@@ -4,7 +4,7 @@ html{
 
 .background{
     background-color: white;    
-    background-image: url(wallpaper_nologo.jpg);
+    background-image: url(image/wallpaper_nologo.jpg);
     background-size: 100%;
     background-attachment: fixed;
 }
