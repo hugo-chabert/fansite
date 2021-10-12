@@ -260,6 +260,9 @@ footer {
     justify-content: space-around;
 }
 
+.colorGRADE {
+    background-color: antiquewhite;
+}
 .containerGrade {
     display: flex;
     flex-direction: column;
