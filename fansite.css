@@ -1,12 +1,16 @@
 html{
     background-color: ghostwhite;
+    background-color: white;    
+    background-image: url(wallpaper_nologo.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
 }
 
 body {
     padding: 0;
     margin: 0;
 }
-ul {
+.ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -14,11 +18,11 @@ ul {
     background-color: #272E6F;
 }
   
-li {
+.li {
     float: left;
 }
   
-li a, .dropbtn {
+.li a, .dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
@@ -26,11 +30,11 @@ li a, .dropbtn {
     text-decoration: none;
 }
   
-li a:hover, .dropdown:hover .dropbtn {
+.li a:hover, .dropdown:hover .dropbtn {
     background-color: #F99D1C;
 }
   
-li.dropdown {
+.li.dropdown {
     display: inline-block;
 }
   
@@ -92,7 +96,7 @@ li.dropdown {
 }
 
 .partone {
-    padding: 1%
+    padding: 1%;
     height: 50%;
     line-height: 25px;
 }
@@ -136,16 +140,24 @@ li.dropdown {
 
 .containerArme{
     display: flex;
-    justify-content: end;
+    flex-direction: row;
+    margin-bottom: 50px;
+    margin-left: 10px;
 }
 
 .containerArmeD{
-
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
 }
 
 .containerArmeG{
-
+    width: 60%;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    color: white;
 }
+
 
 .containerMAP {
     margin-top: 5%;
@@ -197,4 +209,38 @@ footer {
     background-color: #272E6F;
     color: #fff;
     font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+}
+.titreArme{
+    border: solid #26283a 2px;
+    width: 266px;
+    text-align: center;
+    background-color: #26283a;
+    color: #F99D1C;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: bold;
+}
+
+.imageArme{
+    border: solid #F99D1C 2px;
+    width: 266px;
+    height: 200px;
+}
+
+#imageArme{
+    border: solid #F99D1C 2px;
+    width: 266px;
+    height: 150px;
+}
+
+.texteDroite{
+    border: solid #F99D1C 2px;
+    width: 266px;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    color: white;
+}
+
+.nomArme{
+    margin-left: 10px;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    color: #F99D1C;
 }
