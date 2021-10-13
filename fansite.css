@@ -2,9 +2,13 @@ html{
     background-color: ghostwhite;
 }
 
+header {
+    background-color: #272E6F;
+}
+
 .background{
-    background-color: white;    
-    background-image: url(image/wallpaper_nologo.jpg);
+    background-color: whitesmoke;
+    /*background-image: url(image/wallpaper_nologo.jpg);*/
     background-size: 100%;
     background-attachment: fixed;
 }
@@ -74,7 +78,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     width:50%;
-    /*filter: invert(1);*/
+    filter: invert(1);
 
 }
 
@@ -163,7 +167,8 @@ body {
 .containerArmeG{
     width: 60%;
     font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
-    color: white;
+    color: black;
+    letter-spacing: 2px;
 }
 
 
@@ -180,16 +185,18 @@ body {
 }
 
 .borderMAP {
-    background-color: lightslategrey;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    background-color: #F99D1C;
     border: solid;
     text-align: center;
+    letter-spacing: 1px;
 }
 
 .Map1 {
-    border: solid black 1px;
+    border: solid #272E6F 1px;
 }
 .Map1:hover {
-    border: 2mm ridge rgb(0, 0, 0);
+    border: 1mm ridge #272E6F;
     cursor: pointer;
     height: 300px;
     width: 500px;
@@ -222,7 +229,7 @@ footer {
     border: solid #26283a 2px;
     width: 266px;
     text-align: center;
-    background-color: #26283a;
+    background-color: #272E6F;
     color: #F99D1C;
     font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
     font-weight: bold;
@@ -244,7 +251,8 @@ footer {
     border: solid #F99D1C 2px;
     width: 266px;
     font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
-    color: white;
+    color: black;
+    letter-spacing: 2px;
 }
 
 .nomArme{
@@ -268,7 +276,7 @@ footer {
 }
 
 .colorGRADE {
-    background-color: antiquewhite;
+    background-color: whitesmoke;
     height: 100%;
 }
 .containerGrade {
@@ -276,7 +284,10 @@ footer {
     flex-direction: column;
 }
 
+
+
 .containerGrade p{
+    letter-spacing: 1px;
     text-align: center;
 }
 .G1 {
